@@ -1,0 +1,78 @@
+html{
+	font-size: 50px;
+}
+.clear{
+	clear: both;
+}
+/*页头*/
+#mobileHeader{
+	flex: 1;
+	background-color: #f6f6f6;
+
+}
+#mobileHeader img{
+	height: 50px;
+	padding-left: 5px;
+}
+#mobileHeader span{
+	font-size: 35px;
+	color:#2db7f5;
+	padding-left: 5px;
+	vertical-align: top;
+}
+/* 页头右侧图标 */
+#mobileHeader i{
+	font-size: 0.5rem;
+	color:#2db7f5;
+	float: right;
+	margin-right: 0.3rem;
+	margin-top: 0.25rem;
+
+}
+/*页脚*/
+.footer{
+	text-align: center;
+	font-size: 15px;
+}
+/* 主体新闻 */
+.m_article_container{
+	height: 75px;
+	margin-bottom: 6px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #f6f6f6;
+}
+.m_article_image{
+	width: 90px;
+	float: left;
+}
+.m_article_image img{
+	width: 100%;
+}
+.m_article_des{
+	margin-left: 98px;
+}
+.m_article_des p{
+	color: #4d4d4d;
+}
+.m_date{
+	float: right;
+	color: #717171;
+}
+.m_type{
+	color: red;
+	border: 1px solid #cbcbcb;
+}
+.m_title{
+	font-size: 0.3rem;
+}
+/* 轮播图 */
+.m_carouse{
+	margin-bottom: 10px;
+	padding: 0 10px;
+}
+.m_carouse img{
+	height: 150px;
+	width: 100%;
+}
